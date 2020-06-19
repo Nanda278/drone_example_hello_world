@@ -2,5 +2,5 @@ kind: pipeline
 
 steps:
   - name: clone
-    command:
-    echo "Sample"
+    commands:
+      echo "Sample"
