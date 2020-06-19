@@ -7,11 +7,5 @@ clone:
 
 steps:
   - name: clone
-    image: alpine:3.8
-    commands:
-      - echo this is a clone step
-
-  - name: build
-    image: bradrydzewski/private-test
-    commands:
-      - echo this is a build step
+    command:
+    echo "Sample"
